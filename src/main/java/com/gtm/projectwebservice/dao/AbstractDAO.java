@@ -11,7 +11,7 @@ public class AbstractDAO {
 	private final static String DBNAME = "proxidb";*/
 	private final static String USERNAME = "root";
 	private final static String PASSWORD = "root";
-	private final static String URL = "jdbc:mysql://localhost:3306/proxiDB?useSSL=true&useLegacyDatetimeCode=false&serverTimezone=America/New_York";
+	private final static String URL = "jdbc:mysql://localhost:3306/proxidb?useSSL=true&useLegacyDatetimeCode=false&serverTimezone=America/New_York";
 	
 	/**
 	 * Get sql connection to database
