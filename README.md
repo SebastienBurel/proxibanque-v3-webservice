@@ -1,5 +1,9 @@
 # proxibanque-v3-webservice
 
+## Description
+This standalone project only need database to work. You can find database description here : https://github.com/SebastienBurel/proxibanque-v3/blob/master/proxidb.sql
+This project exposes REST webservices that can be used in any application.
+
 ## How to use
 There are 4 packages( dao, rest, service, metier). Import project into Eclipse and launch it on server. 
 If there are errors with Tomcat you should remove Tomcat that was already in Eclipse and put new one. Add this project to Tomcat.
